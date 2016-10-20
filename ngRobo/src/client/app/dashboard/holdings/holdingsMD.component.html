@@ -1,0 +1,53 @@
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-xl-12">
+            <h1 class="page-header">
+                Holdings
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    <i class="fa fa-dashboard"></i>
+                    <a href="Javascript:void(0)" routerLink="/dashboard/home"> Dashboard</a>
+                </li>
+                <li class="active">
+                    <i class="fa fa-fw fa-bar-chart-o"></i> Holdings
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-12">
+            <h4 class="page-header">
+                Resume
+            </h4>
+            Your Portfolio: {{ total }} - Today Gain/Loss: {{ benefit }}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="ccol-xl-12">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead class="thead-inverse">
+                    <tr>
+                        <th>#</th>
+                        <th>Share</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Value</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr *ngFor='let holding of portfolio'>
+                        <th scope="row">1</th>
+                        <td>{{ holding.share }}</td>
+                        <td>{{ holding.numberShares }}</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>

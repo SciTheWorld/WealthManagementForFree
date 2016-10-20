@@ -1,0 +1,39 @@
+web:
+  restart: always
+  build: ./web
+  expose:
+    - "8000"
+  links:
+    - mysqldb:mysqldb
+  volumes:
+    - /usr/src/app
+    - /usr/src/app/static
+  env_file: .env
+  command: sh ./startcommands.sh
+
+nginx:
+  restart: always
+  build: ./nginx/
+  ports:
+    - "50002:80"
+  volumes:
+    - /www/static
+  volumes_from:
+    - web
+  links:
+    - web:web
+    
+mysqldb:
+  image: mysql:latest
+  environment:
+    MYSQL_DATABASE: roboadvisor
+    MYSQL_USER: roboadvisor
+    MYSQL_PASSWORD: 0WDymVc8nT5DfZb
+    MYSQL_ROOT_PASSWORD: pHbKZX0WDyb 
+  ports:
+    - "3306:3306"
+  volumes:
+    - /home/mysql
+
+    
+    
