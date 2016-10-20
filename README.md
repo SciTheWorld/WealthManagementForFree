@@ -1,7 +1,7 @@
 WealthManagementForFree
 ======
 
-Roboadvisors aim at democratizing the access to advanced advisory services of wealth management. We think that if it is not open sourced it is not democratic enough hence... here we go (!). If you want to learn about big data and finance and show it off, just join us.
+Roboadvisors aim at democratizing the access to advanced advisory services of wealth management. We think that if it is not open sourced it is not democratic enough hence... here we go (!). If you want to learn about big data and finance and gain credibility in the FinTech space, just join us.
 
 You need to download all Docker containers
 
