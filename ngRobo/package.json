@@ -108,7 +108,7 @@
     "karma-jasmine": "~1.0.2",
     "karma-mocha-reporter": "2.0.4",
     "merge-stream": "1.0.0",
-    "open": "0.0.5",
+    "open": "7.0.0",
     "postcss-reporter": "1.4.1",
     "protractor": "3.3.0",
     "remap-istanbul": "0.6.4",
