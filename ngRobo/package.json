@@ -142,7 +142,7 @@
     "es-module-loader": "1.0.0",
     "font-awesome": "4.6.3",
     "highcharts": "4.2.5",
-    "jquery": "3.0.0",
+    "jquery": "3.5.0",
     "moment": "2.15.0",
     "ng2-bootstrap": "1.1.5",
     "reflect-metadata": "0.1.8",
