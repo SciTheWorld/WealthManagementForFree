@@ -141,7 +141,7 @@
     "core-js": "2.4.0",
     "es-module-loader": "1.0.0",
     "font-awesome": "4.6.3",
-    "highcharts": "4.2.5",
+    "highcharts": "8.2.0",
     "jquery": "3.0.0",
     "moment": "2.15.0",
     "ng2-bootstrap": "1.1.5",
