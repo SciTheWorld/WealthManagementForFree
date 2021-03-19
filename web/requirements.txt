@@ -1,7 +1,7 @@
 Django==1.9.6
 gunicorn==19.3.0
 django-crispy-forms==1.6.0
-djangorestframework==3.3.3
+djangorestframework==3.11.2
 django-pandas==0.4.1
 pandas-datareader==0.2.1
 blaze==0.10.1
