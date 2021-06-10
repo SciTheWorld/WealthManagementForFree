@@ -1,4 +1,4 @@
-Django==1.9.6
+Django==2.2.24
 gunicorn==19.3.0
 django-crispy-forms==1.6.0
 djangorestframework==3.3.3
